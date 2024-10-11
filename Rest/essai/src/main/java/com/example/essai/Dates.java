@@ -4,6 +4,12 @@ public class Dates {
     private String begin;
     private String end;
 
+    // Constructeur
+    public Dates(String begin, String end) {
+        this.begin = begin;
+        this.end = end;
+    }
+
     // Getters et setters
     public String getBegin() {
         return begin;
