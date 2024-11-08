@@ -20,4 +20,5 @@ jobs:
           export SHELL=/bin/bash
           ./gradlew build
       - name: Build Docker image
+        working-directory: Rest/essai
         run: docker build -t car-rent:latest .
